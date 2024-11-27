@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2,p{
+    color: white;
+    border-bottom: blue;
+    border-top: blue;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor{
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background-color: rgb(15, 84, 86);
+}
+
+.conversor{
+    width: 60%;
+    height: 60%;
+    margin: auto;
+}
+
+input:hover{
+    filter: drop-shadow(auto);
+}
+
+#input-monedas, #select-monedas{
+    padding-inline: 40px;
+    padding-block: 5px;
+    border-radius: 5px;
+}
+
+.btn-convertir{
+    color: rgb(15, 90, 155);
+    border-radius: 10px;
+    margin: auto;
+    background-color: aquamarine;
+    width: 150px;
+    height: 30px;
+}
+
+.btn-convertir:hover{
+    filter: drop-shadow(2px 2px 20px cyan);
+}
+
+.contenedor-canvas{
+    width: auto;
+    height: 300px;
+    margin-top: 50px;
+    background-color: rgb(26, 87, 84);
+    margin-block: 20px;
+}
+
+#myChart{
+    width: auto;
+    height: 300px;
+}
